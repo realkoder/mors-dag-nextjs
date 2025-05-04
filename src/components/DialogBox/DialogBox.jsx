@@ -10,8 +10,8 @@ import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 function DialogBox() {
-  const kam = "🪮🪮🪮🪮🪮🪮🪮🪮🪮🪮";
-  const mis = "😽😽😽😽😽😽😽😽😽😽";
+  const kam = "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️";
+  const mis = "🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰";
   const [emojis, setEmojis] = useState(kam);
 
   useEffect(() => {
@@ -37,59 +37,40 @@ function DialogBox() {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className="text-2xl">Fødselsdags digt!!</DialogTitle>
+          <DialogTitle className="text-2xl">Dagen er mors - et digt</DialogTitle>
           <DialogDescription>{emojis}</DialogDescription>
           <DialogDescription
             className="text-lg text-left"
             style={{ maxHeight: "300px", overflowY: "auto" }}
           >
-            Kære Mari min kvist,
+            Kære Mor, på denne særlige dag,
             <br></br>
-            her er dit helt eget digt
+            vil vi fejre dig, for alt hvad du gør,
             <br></br>
+            Du er vores lys, vores trygge havn,
             <br></br>
-            Så blev det din fødselsdag,
-            <br></br>
-            hvor er jeg glad som et bølgeslag
-            <br></br>
-            <br></br>
-            Et nyt job ved P3, det er så sejt,
-            <br></br>
-            hvor musik og popkultur flyder, nat og dag,
-            <br></br>
-            lige om lidt er vi berejst 🤪
+            Med kærlighed og styrke, du altid er nær.
             <br></br>
             <br></br>
-            På Roskilde festival, hvor du rocker og ler
+            Fra barndommens dage til nu, vi ser,
             <br></br>
-            Popmusikens glæde, du altid ser
+            Din omsorg og varme, som altid er der,
             <br></br>
+            Du lærer os livet, med visdom og smil,
             <br></br>
-            Taylor Swift og Seebach, de er dine stjerner,
-            <br></br>
-            Selvom jeg skæver, og søger andre fjerner.
-            <br></br>
-            <br></br>
-            Din passion for SOME, det gør dig så klog,
-            <br></br>
-            Din lysende skærm, en vejviser og en bog.
+            Din kærlighed er gaven, der aldrig vil svinde.
             <br></br>
             <br></br>
-            Min kærlighed til dig, kan ikke beskrives,
+            På mors dag hylder vi dig, vores bedste ven,
             <br></br>
-            Selvom vi nogle gange har musiksmag som mistrives.
+            Med minder og glæde, vi vil altid være her,
+            <br></br>
+            Du er vores stjerne, vores hjerte, vores sang,
+            <br></br>
+            Tillykke, kære Mor, vi elsker dig så meget.
             <br></br>
             <br></br>
-            Du er min kam, min mis og giver mig ej kuldegys,
-            <br></br>
-            På din fødselsdag sender jeg dig al verdens varme og lys.
-            <br></br>
-            <br></br>
-            Så tillykke min mis, på denne særlige dag.
-            <br></br>
-            Du er jo bare en super-stjerne
-            <br></br>
-            må vores dage ende langt ude i det fjerne
+            Og tak for at vi altid kan ringe og du er der for os - det betyder ALT!
             <br></br>
           </DialogDescription>
         </DialogHeader>

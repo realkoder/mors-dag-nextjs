@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <main className="text-center">
-      <h1 className="text-3xl my-4">FØDSELSDAG</h1>
+      <h1 className="text-3xl my-4">MORS DAG</h1>
       <div className="flex flex-row justify-center m-4">
         <FlagImages flagUrl={flagUrl} />
       </div>
@@ -41,16 +41,15 @@ export default function Home() {
 
         <div className="flex flex-col items-center m-4">
           <Toaster />
-          <h1 className="text-lg my-8">TILLYKKE MED DAGEN MARI! 🇩🇰 </h1>
+          <h1 className="text-lg my-8">TILLYKKE MED MORS DAG ELSKEDE MOR, KNUS ALEX & MALLE! 🇩🇰 </h1>
           <DialogBox />
           <p className="font-sans leading-relaxed my-8 text-xl">
-            Jamen så blev det jo din fødselsdag! <br></br>
-            Tak for dig og for at jeg må være med til at fejre dig. <br></br>
+            Jamen så blev det jo mors dag og du skal fejres derfor denne hjemmeside!! <br></br>
             Her er en lille dum hjemmeside fra{" "}
-            <span className="font-bold">MIIIAAAAHHGGG</span> til{" "}
-            <span className="font-bold">DIAAAAGGHHH</span>! <br></br>
+            <span className="font-bold">DINE BØRN</span> til{" "}
+            <span className="font-bold">DIG</span>! <br></br>
             Klik lidt rundt og se hvad den kan{" "}
-            <span className="italic">10hiii f9zzz....</span>
+            <span className="italic">Måske du får lidt overraskelser</span>
           </p>
           {!showBadeHat && (
             <Button
@@ -61,21 +60,33 @@ export default function Home() {
               }}
             >
               KLIK HER HVIS DU TØR <br></br>
-              (showBadeHat)
+              (papa og vores kære mor)
             </Button>
           )}
 
           {showBadeHat && (
-            <Image
-              src="https://wedobetter.dk/cdn/shop/products/5_7a4a7ab2-b9ef-40dd-aae4-a37ca712b862.jpg?v=1666864560"
-              alt="Hundemad"
+            <div>
+              <Image
+              src="mor.jpg"
+              alt="MOR"
               width={200}
               height={200}
               className="m-2 rounded-lg shadow-lg cursor-pointer"
               onClick={() =>
-                toast.info("JEG ER BARE EN SJOV LILLE NISSE - hihiihi!")
+                toast.info("SÅ BLEV DET MORS DAG og den kære papa er også lige med - hihiihi!")
               }
             />
+            <Image
+              src="https://images.jfmedier.dk/images/a/a5/a51/a51a95c1-5cdf-4f18-9fba-a3f1f91fc9ac_2_90_0_0_6000_4000_1440_960_b9955766.jpg"
+              alt="Vores far og din mand"
+              width={200}
+              height={200}
+              className="m-2 rounded-lg shadow-lg cursor-pointer"
+              onClick={() =>
+                toast.info("SÅ BLEV DET MORS DAG og den kære papa er også lige med - hihiihi!")
+              }
+            />
+            </div>
           )}
         </div>
 
