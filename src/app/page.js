@@ -41,10 +41,13 @@ export default function Home() {
 
         <div className="flex flex-col items-center m-4">
           <Toaster />
-          <h1 className="text-lg my-8">TILLYKKE MED MORS DAG ELSKEDE MOR, KNUS ALEX & MALLE! 🇩🇰 </h1>
+          <h1 className="text-lg my-8">
+            TILLYKKE MED MORS DAG ELSKEDE MOR, KNUS ALEX & MALLE! 🇩🇰{" "}
+          </h1>
           <DialogBox />
           <p className="font-sans leading-relaxed my-8 text-xl">
-            Jamen så blev det jo mors dag og du skal fejres derfor denne hjemmeside!! <br></br>
+            Jamen så blev det jo mors dag og du skal fejres derfor denne
+            hjemmeside!! <br></br>
             Her er en lille dum hjemmeside fra{" "}
             <span className="font-bold">DINE BØRN</span> til{" "}
             <span className="font-bold">DIG</span>! <br></br>
@@ -67,27 +70,47 @@ export default function Home() {
           {showBadeHat && (
             <div>
               <Image
-              src="mor.jpg"
-              alt="MOR"
-              width={200}
-              height={200}
-              className="m-2 rounded-lg shadow-lg cursor-pointer"
-              onClick={() =>
-                toast.info("SÅ BLEV DET MORS DAG og den kære papa er også lige med - hihiihi!")
-              }
-            />
-            <Image
-              src="https://images.jfmedier.dk/images/a/a5/a51/a51a95c1-5cdf-4f18-9fba-a3f1f91fc9ac_2_90_0_0_6000_4000_1440_960_b9955766.jpg"
-              alt="Vores far og din mand"
-              width={200}
-              height={200}
-              className="m-2 rounded-lg shadow-lg cursor-pointer"
-              onClick={() =>
-                toast.info("SÅ BLEV DET MORS DAG og den kære papa er også lige med - hihiihi!")
-              }
-            />
+                src="mor.jpg"
+                alt="MOR"
+                width={200}
+                height={200}
+                className="m-2 rounded-lg shadow-lg cursor-pointer"
+                onClick={() =>
+                  toast.info(
+                    "SÅ BLEV DET MORS DAG og den kære papa er også lige med - hihiihi!"
+                  )
+                }
+              />
+              <Image
+                src="https://images.jfmedier.dk/images/a/a5/a51/a51a95c1-5cdf-4f18-9fba-a3f1f91fc9ac_2_90_0_0_6000_4000_1440_960_b9955766.jpg"
+                alt="Vores far og din mand"
+                width={200}
+                height={200}
+                className="m-2 rounded-lg shadow-lg cursor-pointer"
+                onClick={() =>
+                  toast.info(
+                    "SÅ BLEV DET MORS DAG og den kære papa er også lige med - hihiihi!"
+                  )
+                }
+              />
             </div>
           )}
+          <Image
+            src="pizza.jpg"
+            alt="Pizza"
+            width={350}
+            height={350}
+            className="m-4 rounded-lg shadow-lg cursor-pointer"
+            onClick={() => toast.info("🍕🍕🍕🍕")}
+          />
+          <Image
+            src="mor-far.png"
+            alt="Mor og far"
+            width={350}
+            height={350}
+            className="m-4 rounded-lg shadow-lg cursor-pointer"
+            onClick={() => toast.info("I ER DA SØDE")}
+          />
         </div>
 
         <div className="flex flex-col items-center m-4">
