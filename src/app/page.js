@@ -96,7 +96,7 @@ export default function Home() {
             </div>
           )}
           <Image
-            src="pizza.jpg"
+            src="pizza.jpeg"
             alt="Pizza"
             width={350}
             height={350}

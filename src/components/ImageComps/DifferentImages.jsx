@@ -47,7 +47,7 @@ const DifferentImages = () => {
         onClick={() => toast.info("MORS DAG!")}
       />
       <Image
-        src="mor2.png"
+        src="mor2.jpg"
         alt="Mor"
         width={350}
         height={350}
