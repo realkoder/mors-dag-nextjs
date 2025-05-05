@@ -19,7 +19,7 @@ const DifferentImages = () => {
           width={70}
           height={70}
           className="m-2 rounded-lg shadow-lg cursor-pointer"
-          onClick={() => toast.info("🤪🤪🤪🤪")}
+          onClick={() => toast.info("jajajajajaja 🤪🤪🤪")}
         />
         <Image
           src="malle-sander2.jpg"
@@ -27,7 +27,7 @@ const DifferentImages = () => {
           width={70}
           height={70}
           className="m-2 rounded-lg shadow-lg cursor-pointer"
-          onClick={() => toast.info("🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️")}
+          onClick={() => toast.info("jajajajajaja 🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️")}
         />
       </div>
       <Image
